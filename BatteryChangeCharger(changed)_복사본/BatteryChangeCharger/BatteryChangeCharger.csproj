@@ -1,0 +1,1275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C20B7A78-DDE7-4C6C-8421-8D1BA07CFD8D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BatteryChangeCharger</RootNamespace>
+    <AssemblyName>BatteryChangeCharger</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <PublishUrl>게시\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Costura, Version=3.3.3.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Costura.Fody.3.3.3\lib\net40\Costura.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Registry.5.0.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Registry.AccessControl.6.0.0\lib\net461\Microsoft.Win32.Registry.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.SystemEvents, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.SystemEvents.6.0.0\lib\net461\Microsoft.Win32.SystemEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=100.0.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharpSigned.105.2.3\lib\net46\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.CodeDom, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.CodeDom.6.0.0\lib\net461\System.CodeDom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.6.0.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Odbc, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.Odbc.6.0.0\lib\net461\System.Data.Odbc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OleDb, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.OleDb.6.0.0\lib\net461\System.Data.OleDb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.3\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite, Version=1.0.115.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\lib\net40\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.115.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.115.0\lib\net40\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.115.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.115.0\lib\net40\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Diagnostics.EventLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.EventLog.6.0.0\lib\net461\System.Diagnostics.EventLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.PerformanceCounter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.PerformanceCounter.6.0.0\lib\net461\System.Diagnostics.PerformanceCounter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.Drawing.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.6.0.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.AccessControl, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.AccessControl.5.0.0\lib\net461\System.IO.FileSystem.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.6.0.0\lib\net461\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes.AccessControl, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipes.AccessControl.5.0.0\lib\net461\System.IO.Pipes.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Ports, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Ports.6.0.0\lib\net461\System.IO.Ports.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Context" />
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.6.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.1\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Cng, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Cng.5.0.0\lib\net47\System.Security.Cryptography.Cng.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Pkcs, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Pkcs.6.0.0\lib\net461\System.Security.Cryptography.Pkcs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.ProtectedData, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.ProtectedData.6.0.0\lib\net461\System.Security.Cryptography.ProtectedData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Xml, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Xml.6.0.0\lib\net461\System.Security.Cryptography.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.6.0.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Duplex, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Duplex.4.9.0\lib\net461\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Http.4.9.0\lib\net461\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.NetTcp.4.9.0\lib\net461\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Primitives.4.9.0\lib\net461\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Security.4.9.0\lib\net461\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Syndication, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Syndication.6.0.0\lib\net461\System.ServiceModel.Syndication.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.ServiceProcess.ServiceController, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceProcess.ServiceController.6.0.0\lib\net461\System.ServiceProcess.ServiceController.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Text.Encoding.CodePages, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encoding.CodePages.6.0.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.AccessControl.6.0.0\lib\net461\System.Threading.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.Services.Description, Version=4.9.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Web.Services.Description.4.9.0\lib\net461\System.Web.Services.Description.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="websocket-sharp">
+      <HintPath>..\packages\WebSocketSharp-netstandard.1.0.1\lib\net45\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="zxing, Version=0.16.6.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.6\lib\net40\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.6.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.6\lib\net40\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Applications\MyApplication.cs" />
+    <Compile Include="BatteryChange_Charger\ChargerVariable\BCC_MODE_MAIN.cs" />
+    <Compile Include="BatteryChange_Charger\ChargerVariable\CSystemMode.cs" />
+    <Compile Include="BatteryChange_Charger\ChargerVariable\MCC_MODE_SOCKET.cs" />
+    <Compile Include="BatteryChange_Charger\Constants_Variable.cs" />
+    <Compile Include="BatteryChange_Charger\Controller\BCC_Main_Controller.cs" />
+    <Compile Include="BatteryChange_Charger\Controller\BCC_Main_Controller_Ver02.cs" />
+    <Compile Include="BatteryChange_Charger\Controller\BCC_Socket_Controller.cs" />
+    <Compile Include="BatteryChange_Charger\CsUtil.cs" />
+    <Compile Include="BatteryChange_Charger\ControlManager\BCC_ControlManager_SelfDiagnosis.cs" />
+    <Compile Include="BatteryChange_Charger\ControlManager\BCC_ControlManager_SocketCharging.cs" />
+    <Compile Include="BatteryChange_Charger\ControlManager\BCC_ControlManager_Sockets.cs" />
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Main.Designer.cs">
+      <DependentUpon>BCC_UC_ChargingMain_Include_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Process_Certification_Battery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Process_Certification_Battery.Designer.cs">
+      <DependentUpon>BCC_UC_ChargingMain_Include_Process_Certification_Battery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Qrcode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Qrcode.Designer.cs">
+      <DependentUpon>BCC_UC_ChargingMain_Include_Qrcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Use_Complete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Use_Complete.Designer.cs">
+      <DependentUpon>BCC_UC_ChargingMain_Include_Use_Complete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Wait_Insert_Battery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Wait_Insert_Battery.Designer.cs">
+      <DependentUpon>BCC_UC_ChargingMain_Include_Wait_Insert_Battery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.Designer.cs">
+      <DependentUpon>BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Unit_Kiosk.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Unit_kiosk.Designer.cs">
+      <DependentUpon>BCC_UC_ChargingMain_Unit_Kiosk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\IUC_Include_Main.cs" />
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Card_Tag.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Card_Tag.Designer.cs">
+      <DependentUpon>P1024_BCC_UC_ChargingMain_Include_Card_Tag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Main.Designer.cs">
+      <DependentUpon>P1024_BCC_UC_ChargingMain_Include_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Qrcode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Qrcode.Designer.cs">
+      <DependentUpon>P1024_BCC_UC_ChargingMain_Include_Qrcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Use_Complete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Use_Complete.Designer.cs">
+      <DependentUpon>P1024_BCC_UC_ChargingMain_Include_Use_Complete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.Designer.cs">
+      <DependentUpon>P1024_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.Designer.cs">
+      <DependentUpon>P1024_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Main.Designer.cs">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Include_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Process_Certification_Battery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Process_Certification_Battery.Designer.cs">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Include_Process_Certification_Battery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Qrcode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Qrcode.Designer.cs">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Include_Qrcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Use_Complete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Use_Complete.Designer.cs">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Include_Use_Complete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.Designer.cs">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.Designer.cs">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Unit_Kiosk.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Unit_Kiosk.Designer.cs">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Unit_Kiosk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_UC_Bottombar_ProcessStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_UC_Bottombar_ProcessStep.Designer.cs">
+      <DependentUpon>P788_UC_Bottombar_ProcessStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_UC_Bottombar_Weather.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_UC_Bottombar_Weather.Designer.cs">
+      <DependentUpon>P788_UC_Bottombar_Weather.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_UC_MainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_UC_MainPage.Designer.cs">
+      <DependentUpon>P788_UC_MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_UC_MainPage_Notify_1Button.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_UC_MainPage_Notify_1Button.Designer.cs">
+      <DependentUpon>P788_UC_MainPage_Notify_1Button.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_UC_MainPage_Notify_2Button.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_UC_MainPage_Notify_2Button.Designer.cs">
+      <DependentUpon>P788_UC_MainPage_Notify_2Button.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_UC_ProcessStep_Common.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\P788_UC_ProcessStep_Common.Designer.cs">
+      <DependentUpon>P788_UC_ProcessStep_Common.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\WeatherAPITest.cs" />
+    <Compile Include="BatteryChange_Charger\Database\DataManager_ChargingInfor_List.cs" />
+    <Compile Include="BatteryChange_Charger\Database\Manager_SettingData_Main.cs" />
+    <Compile Include="BatteryChange_Charger\Database\Manager_SQLite_Settings.cs" />
+    <Compile Include="BatteryChange_Charger\Database\Manager_Table_MainSetting.cs" />
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Complete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Complete.Designer.cs">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Complete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Home.Designer.cs">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Setup_Battery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Setup_Battery.Designer.cs">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Setup_Battery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Test_Charging.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Test_Charging.Designer.cs">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Test_Charging.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Test_Comm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Test_Comm.Designer.cs">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Test_Comm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Test_IO.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Test_IO.Designer.cs">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Test_IO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.Designer.cs">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\SerialPorts\CONST_Board_Common.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\CONST_IO_Board.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\CONST_NFC_Board.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\IOBoard\IO_Board_CommManager_SerialPort.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\IOBoard\IO_Board_CommManager_Packet.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\IOBoard\IO_Board_CommManager_Send.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\IOBoard\Packet\IOBoard_Packet_a1_Receive.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\IOBoard\Packet\IOBoard_Packet_a1_Send.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\IOBoard\Packet\IOBoard_Packet_z1_Receive.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\IOBoard\Packet\IOBoard_Packet_z1_Send.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\NFC_Board\NFCBoard_CommManager_Packet.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\NFC_Board\NFCBoard_CommManager_Send.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\NFC_Board\NFCBoard_CommManager_SerialPort.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\NFC_Board\Packets\NFCBoard_Packet_c1_receive.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\NFC_Board\Packets\NFCBoard_Packet_c1_Send.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\Smatro_Card_Reader.cs" />
+    <Compile Include="BatteryChange_Charger\Settings\Form_Confirm_Program_Reset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Settings\Form_Confirm_Program_Reset.Designer.cs">
+      <DependentUpon>Form_Confirm_Program_Reset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Settings\P788_BCC_UC_Setting_CommDeviceSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Settings\P788_BCC_UC_Setting_CommDeviceSetting.Designer.cs">
+      <DependentUpon>P788_BCC_UC_Setting_CommDeviceSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Settings\P788_BCC_UC_Setting_DoorSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Settings\P788_BCC_UC_Setting_DoorSetting.Designer.cs">
+      <DependentUpon>P788_BCC_UC_Setting_DoorSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Settings\P788_BCC_UC_Setting_Main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Settings\P788_BCC_UC_Setting_Main.Designer.cs">
+      <DependentUpon>P788_BCC_UC_Setting_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\TestMode_Charging\P788_BCC_UC_TestMode_Charging.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\TestMode_Charging\P788_BCC_UC_TestMode_Charging.Designer.cs">
+      <DependentUpon>P788_BCC_UC_TestMode_Charging.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\TestMode_Charging\UC_TestMode_LayoutUnit_Charger.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\TestMode_Charging\UC_TestMode_LayoutUnit_Charger.Designer.cs">
+      <DependentUpon>UC_TestMode_LayoutUnit_Charger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChargerVariable\CObject.cs" />
+    <Compile Include="ChargerVariable\CObject_Channel.cs" />
+    <Compile Include="ChargerVariable\CSocketState.cs" />
+    <Compile Include="CRC\CRC16.cs" />
+    <Compile Include="CsDefine.cs" />
+    <Compile Include="DNA_OperatingServer\DNA_OS_Client_Manager.cs" />
+    <Compile Include="DNA_OperatingServer\DNA_OS_Server_Manager.cs" />
+    <Compile Include="DNA_OperatingServer\HTTP_Client.cs" />
+    <Compile Include="DNA_OperatingServer\HTTP_Server.cs" />
+    <Compile Include="DNA_OperatingServer\Packet\Client\DNA_OS_Client_Packet_Base.cs" />
+    <Compile Include="DNA_OperatingServer\Packet\DNA_OS_Packet_Base.cs" />
+    <Compile Include="DNA_OperatingServer\Packet\Server\DNA_OS_Server_Packet_Base.cs" />
+    <Compile Include="JSH_Base\Databases\Manager_Table_Setting.cs" />
+    <Compile Include="BatteryChange_Charger\DataManager\BCC_DataManager_CustomUserControl.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\IOBoard\Packet\IOBoard_Packet_Base.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\IOBoard\Packet\IOBoard_Packet_Base_Receive.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\IOBoard\Packet\IOBoard_Packet_Base_Send.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\NFC_Board\Packets\NFCBoard_Packet_Base.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\NFC_Board\Packets\NFCBoard_Packet_Base_Receive.cs" />
+    <Compile Include="BatteryChange_Charger\SerialPorts\NFC_Board\Packets\NFCBoard_Packet_Base_Send.cs" />
+    <Compile Include="BatteryChange_Charger\Settings\Form_Setting_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Settings\Form_Setting_Main.Designer.cs">
+      <DependentUpon>Form_Setting_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controller\Controller_Base.cs" />
+    <Compile Include="ControlManager\IControlManager_UserControl.cs" />
+    <Compile Include="CorrectionMode\Form_CorrectionMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\Form_CorrectionMode.Designer.cs">
+      <DependentUpon>Form_CorrectionMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Complete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Complete.Designer.cs">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Complete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Home.Designer.cs">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Setup_Battery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Setup_Battery.Designer.cs">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Setup_Battery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Test_Charging.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Test_Charging.Designer.cs">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Test_Charging.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Test_Comm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Test_Comm.Designer.cs">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Test_Comm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Test_IO.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Test_IO.Designer.cs">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Test_IO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.Designer.cs">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\Self-diagnosis\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_IOBoard_Receive_Common.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_IOBoard_Receive_Common.Designer.cs">
+      <DependentUpon>UC_CorrectionMode_IOBoard_Receive_Common.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_IOBoard_Receive_z1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_IOBoard_Receive_z1.Designer.cs">
+      <DependentUpon>UC_CorrectionMode_IOBoard_Receive_z1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_IOBoard_Receive_z1_Socket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_IOBoard_Receive_z1_Socket.Designer.cs">
+      <DependentUpon>UC_CorrectionMode_IOBoard_Receive_z1_Socket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_IOBoard_Send_Common.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_IOBoard_Send_Common.Designer.cs">
+      <DependentUpon>UC_CorrectionMode_IOBoard_Send_Common.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_IOBoard_Send_z1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_IOBoard_Send_z1.Designer.cs">
+      <DependentUpon>UC_CorrectionMode_IOBoard_Send_z1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_IOBoard_Send_z1_Socket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_IOBoard_Send_z1_Socket.Designer.cs">
+      <DependentUpon>UC_CorrectionMode_IOBoard_Send_z1_Socket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Receive_Common.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Receive_Common.Designer.cs">
+      <DependentUpon>UC_CorrectionMode_NFCBoard_Receive_Common.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Receive_z1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Receive_z1.Designer.cs">
+      <DependentUpon>UC_CorrectionMode_NFCBoard_Receive_z1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Receive_z1_Socket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Receive_z1_Socket.Designer.cs">
+      <DependentUpon>UC_CorrectionMode_NFCBoard_Receive_z1_Socket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Send_Common.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Send_Common.Designer.cs">
+      <DependentUpon>UC_CorrectionMode_NFCBoard_Send_Common.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Send_z1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Send_z1.Designer.cs">
+      <DependentUpon>UC_CorrectionMode_NFCBoard_Send_z1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Send_z1_Socket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Send_z1_Socket.Designer.cs">
+      <DependentUpon>UC_CorrectionMode_NFCBoard_Send_z1_Socket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\UC_MainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\UC_MainPage.Designer.cs">
+      <DependentUpon>UC_MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\UC_MainPage_Notify_1Button.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\UC_MainPage_Notify_1Button.Designer.cs">
+      <DependentUpon>UC_MainPage_Notify_1Button.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\UC_MainPage_Notify_2Button.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\UC_MainPage_Notify_2Button.Designer.cs">
+      <DependentUpon>UC_MainPage_Notify_2Button.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\UC_ProcessStep_Common.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryChange_Charger\Custom_UserControl\UC_ProcessStep_Common.Designer.cs">
+      <DependentUpon>UC_ProcessStep_Common.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Databases\Database_Setting_Base.cs" />
+    <Compile Include="DataManager\DataManager_Base.cs" />
+    <Compile Include="DataManager\DataManager_Channel_Base.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface_Common\IClickListener.cs" />
+    <Compile Include="Interface_Common\IMainForm.cs" />
+    <Compile Include="Interface_Common\ISelectListener.cs" />
+    <Compile Include="JSH_Base\Databases\Manager_SQLite.cs" />
+    <Compile Include="JSH_Base\Databases\Manager_Table.cs" />
+    <Compile Include="JSH_Base\KeyPadForm\Form_Keypads.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JSH_Base\KeyPadForm\Form_Keypads.Designer.cs">
+      <DependentUpon>Form_Keypads.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JSH_Base\KeyPadForm\WrapNative.cs" />
+    <Compile Include="Lib_Custom\MinidumpHelp.cs" />
+    <Compile Include="Make_Accel_File.cs" />
+    <Compile Include="Manager\JSH_Time.cs" />
+    <Compile Include="Manager\Manager_Application.cs" />
+    <Compile Include="Manager\Manager_Bcd.cs" />
+    <Compile Include="Manager\Manager_Conversion.cs" />
+    <Compile Include="Manager\Manager_IntervalExcute_Base.cs" />
+    <Compile Include="Manager\Manager_Time.cs" />
+    <Compile Include="Manager\Manager_TTS.cs" />
+    <Compile Include="OCPP\database\CONST_INDEX_OCPP_Setting.cs" />
+    <Compile Include="OCPP\database\OCPP_Manager_Table_Setting.cs" />
+    <Compile Include="OCPP\datatype\AuthorizationData.cs" />
+    <Compile Include="OCPP\datatype\AuthorizationStatus.cs" />
+    <Compile Include="OCPP\datatype\AvailabilityStatus.cs" />
+    <Compile Include="OCPP\datatype\AvailabilityType.cs" />
+    <Compile Include="OCPP\datatype\CancelReservationStatus.cs" />
+    <Compile Include="OCPP\datatype\ChargePointErrorCode.cs" />
+    <Compile Include="OCPP\datatype\ChargePointStatus.cs" />
+    <Compile Include="OCPP\datatype\ChargingProfile.cs" />
+    <Compile Include="OCPP\datatype\ChargingProfileKindType.cs" />
+    <Compile Include="OCPP\datatype\ChargingProfilePurposeType.cs" />
+    <Compile Include="OCPP\datatype\ChargingProfileStatus.cs" />
+    <Compile Include="OCPP\datatype\ChargingRateUnitType.cs" />
+    <Compile Include="OCPP\datatype\ChargingSchedule.cs" />
+    <Compile Include="OCPP\datatype\ChargingSchedulePeriod.cs" />
+    <Compile Include="OCPP\datatype\ClearCacheStatus.cs" />
+    <Compile Include="OCPP\datatype\ClearChargingProfileStatus.cs" />
+    <Compile Include="OCPP\datatype\ConfigurationStatus.cs" />
+    <Compile Include="OCPP\datatype\ConnectorType.cs" />
+    <Compile Include="OCPP\datatype\CSL_ConnectorPhaseRotation.cs" />
+    <Compile Include="OCPP\datatype\DataTransferStatus.cs" />
+    <Compile Include="OCPP\datatype\DiagnosticsStatus.cs" />
+    <Compile Include="OCPP\datatype\FirmwareStatus.cs" />
+    <Compile Include="OCPP\datatype\GetCompositeScheduleStatus.cs" />
+    <Compile Include="OCPP\datatype\IdTagInfo.cs" />
+    <Compile Include="OCPP\datatype\KeyValue.cs" />
+    <Compile Include="OCPP\datatype\Location.cs" />
+    <Compile Include="OCPP\datatype\Measurand.cs" />
+    <Compile Include="OCPP\datatype\MessageTrigger.cs" />
+    <Compile Include="OCPP\datatype\MeterValue.cs" />
+    <Compile Include="OCPP\datatype\Phase.cs" />
+    <Compile Include="OCPP\datatype\ReadingContext.cs" />
+    <Compile Include="OCPP\datatype\Reason.cs" />
+    <Compile Include="OCPP\datatype\RecurrencyKindType.cs" />
+    <Compile Include="OCPP\datatype\RegistrationStatus.cs" />
+    <Compile Include="OCPP\datatype\RemoteStartStopStatus.cs" />
+    <Compile Include="OCPP\datatype\ReservationStatus.cs" />
+    <Compile Include="OCPP\datatype\ResetStatus.cs" />
+    <Compile Include="OCPP\datatype\ResetType.cs" />
+    <Compile Include="OCPP\datatype\SampledValue.cs" />
+    <Compile Include="OCPP\datatype\TriggerMessageStatus.cs" />
+    <Compile Include="OCPP\datatype\UnitOfMeasure.cs" />
+    <Compile Include="OCPP\datatype\UnlockStatus.cs" />
+    <Compile Include="OCPP\datatype\UpdateStatus.cs" />
+    <Compile Include="OCPP\datatype\UpdateType.cs" />
+    <Compile Include="OCPP\datatype\ValueFormat.cs" />
+    <Compile Include="OCPP\EOCPP_Action_CP_Call.cs" />
+    <Compile Include="OCPP\EOCPP_Action_CSMS_Call.cs" />
+    <Compile Include="OCPP\Logger.cs" />
+    <Compile Include="OCPP\OCPP_Comm_Manager.cs" />
+    <Compile Include="OCPP\OCPP_Comm_SendMgr.cs" />
+    <Compile Include="OCPP\packet\common_action\Conf_DataTransfer.cs" />
+    <Compile Include="OCPP\packet\common_action\Req_DataTransfer.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Conf_Authorize.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Conf_BootNotification.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Conf_Heartbeat.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Conf_MeterValues.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Conf_StartTransaction.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Conf_StatusNotification.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Conf_StopTransaction.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Req_Authorize.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Req_BootNotification.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Req_DiagnosticsStatusNotification.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Req_FirmwareStatusNotification.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Req_Heartbeat.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Req_MeterValues.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Req_StartTransaction.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Req_StatusNotification.cs" />
+    <Compile Include="OCPP\packet\cp2csms\Req_StopTransaction.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_CancelReservation.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_ChangeAvailability.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_ChangeConfiguration.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_ClearCache.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_ClearChargingProfile.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_GetCompositeSchedule.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_GetConfiguration.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_GetDiagnostics.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_GetLocalListVersion.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_RemoteStartTransaction.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_RemoteStopTransaction.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_ReserveNow.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_Reset.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_SendLocalList.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_SetChargingProfile.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_TriggerMessage.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_UnlockConnector.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Conf_UpdateFirmware.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_CancelReservation.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_ChangeAvailability.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_ChangeConfiguration.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_ClearCache.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_ClearChargingProfile.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_GetCompositeSchedule.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_GetConfiguration.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_GetDiagnostics.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_GetLocalListVersion.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_RemoteStartTransaction.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_RemoteStopTransaction.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_ReserveNow.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_Reset.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_SendLocalList.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_SetChargingProfile.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_TriggerMessage.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_UnlockConnector.cs" />
+    <Compile Include="OCPP\packet\csms2cp\Req_UpdateFirmware.cs" />
+    <Compile Include="OCPP\packet\EL_OCPP_Packet_Wrapper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queue\ArrayQueue.cs" />
+    <Compile Include="Queue\EventQueue.cs" />
+    <Compile Include="Sequence\Seq_Authrize.cs" />
+    <Compile Include="Sequence\Seq_Boot.cs" />
+    <Compile Include="Sequence\Seq_Charging.cs" />
+    <Compile Include="Sequence\Seq_Main.cs" />
+    <Compile Include="Sequence\Seq_Preparing.cs" />
+    <Compile Include="SerialPortManager\MManager_Comm.cs" />
+    <Compile Include="SmartCardReader_PCSC\Data Structures\NDEF\NDEF.cs" />
+    <Compile Include="SmartCardReader_PCSC\Data Structures\NDEF\NFCForum.cs" />
+    <Compile Include="SmartCardReader_PCSC\Data Structures\NDEF\VCard.cs" />
+    <Compile Include="SmartCardReader_PCSC\Data Structures\Peer to Peer\AtrRequestParameter.cs" />
+    <Compile Include="SmartCardReader_PCSC\Data Structures\Peer to Peer\PeerToPeer.cs" />
+    <Compile Include="SmartCardReader_PCSC\Exceptions\InvalidResponseException.cs" />
+    <Compile Include="SmartCardReader_PCSC\Exceptions\InvalidReturnStateException.cs" />
+    <Compile Include="SmartCardReader_PCSC\Exceptions\PcscException.cs" />
+    <Compile Include="SmartCardReader_PCSC\Exceptions\ReaderException.cs" />
+    <Compile Include="SmartCardReader_PCSC\Form_SmartCardReader_PCSC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SmartCardReader_PCSC\Form_SmartCardReader_PCSC.Designer.cs">
+      <DependentUpon>Form_SmartCardReader_PCSC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartCardReader_PCSC\jsh_customize\SCR_PacketManager.cs" />
+    <Compile Include="SmartCardReader_PCSC\jsh_customize\SCR_Packet_ATR_Req.cs" />
+    <Compile Include="SmartCardReader_PCSC\jsh_customize\SCR_Packet_ATR_Res.cs" />
+    <Compile Include="SmartCardReader_PCSC\jsh_customize\SCR_Packet_Base.cs" />
+    <Compile Include="SmartCardReader_PCSC\jsh_customize\SCR_Packet_Base_Receive.cs" />
+    <Compile Include="SmartCardReader_PCSC\jsh_customize\SCR_Packet_Base_Send.cs" />
+    <Compile Include="SmartCardReader_PCSC\jsh_customize\SCR_Packet_Base_Send_Dep.cs" />
+    <Compile Include="SmartCardReader_PCSC\jsh_customize\SCR_Packet_Dep_01_BMU_Res.cs" />
+    <Compile Include="SmartCardReader_PCSC\jsh_customize\SCR_Packet_Dep_02_CMU_Req.cs" />
+    <Compile Include="SmartCardReader_PCSC\jsh_customize\SCR_Packet_Dep_01_BMU_Req.cs" />
+    <Compile Include="SmartCardReader_PCSC\jsh_customize\SCR_Packet_Dep_02_CMU_Res.cs" />
+    <Compile Include="SmartCardReader_PCSC\Pcsc\Apdu.cs" />
+    <Compile Include="SmartCardReader_PCSC\Pcsc\Helper.cs" />
+    <Compile Include="SmartCardReader_PCSC\Pcsc\PcscHelper.cs" />
+    <Compile Include="SmartCardReader_PCSC\Pcsc\PcscProvider.cs" />
+    <Compile Include="SmartCardReader_PCSC\Pcsc\PcscReader.cs" />
+    <Compile Include="SmartCardReader_PCSC\Reference Data\ACTION_RECORD.cs" />
+    <Compile Include="SmartCardReader_PCSC\Reference Data\CONNECTION_SPEED.cs" />
+    <Compile Include="SmartCardReader_PCSC\Reference Data\NFC_MODE.cs" />
+    <Compile Include="SmartCardReader_PCSC\Reference Data\NFC_PROTOCOL_STATUS.cs" />
+    <Compile Include="SmartCardReader_PCSC\Reference Data\OPERATION_MODE.cs" />
+    <Compile Include="SmartCardReader_PCSC\Reference Data\TYPE_NAME_FORMAT.cs" />
+    <Compile Include="SmartCardReader_PCSC\Reference Data\URI_IDENTIFIER_CODE.cs" />
+    <Compile Include="StaticVariable\CONST_EVENT.cs" />
+    <Compile Include="Theme\ThemeColor.cs" />
+    <Compile Include="Widgets\CircularProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Main.resx">
+      <DependentUpon>BCC_UC_ChargingMain_Include_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Process_Certification_Battery.resx">
+      <DependentUpon>BCC_UC_ChargingMain_Include_Process_Certification_Battery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Qrcode.resx">
+      <DependentUpon>BCC_UC_ChargingMain_Include_Qrcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Use_Complete.resx">
+      <DependentUpon>BCC_UC_ChargingMain_Include_Use_Complete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resx">
+      <DependentUpon>BCC_UC_ChargingMain_Include_Wait_Insert_Battery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resx">
+      <DependentUpon>BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\BCC_UC_ChargingMain_Unit_kiosk.resx">
+      <DependentUpon>BCC_UC_ChargingMain_Unit_Kiosk.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Card_Tag.resx">
+      <DependentUpon>P1024_BCC_UC_ChargingMain_Include_Card_Tag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Main.resx">
+      <DependentUpon>P1024_BCC_UC_ChargingMain_Include_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Qrcode.resx">
+      <DependentUpon>P1024_BCC_UC_ChargingMain_Include_Qrcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Use_Complete.resx">
+      <DependentUpon>P1024_BCC_UC_ChargingMain_Include_Use_Complete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resx">
+      <DependentUpon>P1024_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P1024_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resx">
+      <DependentUpon>P1024_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Main.resx">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Include_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Process_Certification_Battery.resx">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Include_Process_Certification_Battery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Qrcode.resx">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Include_Qrcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Use_Complete.resx">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Include_Use_Complete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resx">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resx">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P788_BCC_UC_ChargingMain_Unit_Kiosk.resx">
+      <DependentUpon>P788_BCC_UC_ChargingMain_Unit_Kiosk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P788_UC_Bottombar_ProcessStep.resx">
+      <DependentUpon>P788_UC_Bottombar_ProcessStep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P788_UC_Bottombar_Weather.resx">
+      <DependentUpon>P788_UC_Bottombar_Weather.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P788_UC_MainPage.resx">
+      <DependentUpon>P788_UC_MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\P788_UC_ProcessStep_Common.resx">
+      <DependentUpon>P788_UC_ProcessStep_Common.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Complete.resx">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Complete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Home.resx">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Setup_Battery.resx">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Setup_Battery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Test_Charging.resx">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Test_Charging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Test_Comm.resx">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Test_Comm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Test_IO.resx">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Test_IO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Self-diagnosis\P788_BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resx">
+      <DependentUpon>P788_BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Settings\Form_Confirm_Program_Reset.resx">
+      <DependentUpon>Form_Confirm_Program_Reset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Settings\Form_Setting_Main.resx">
+      <DependentUpon>Form_Setting_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Settings\P788_BCC_UC_Setting_CommDeviceSetting.resx">
+      <DependentUpon>P788_BCC_UC_Setting_CommDeviceSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Settings\P788_BCC_UC_Setting_DoorSetting.resx">
+      <DependentUpon>P788_BCC_UC_Setting_DoorSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Settings\P788_BCC_UC_Setting_Main.resx">
+      <DependentUpon>P788_BCC_UC_Setting_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\TestMode_Charging\P788_BCC_UC_TestMode_Charging.resx">
+      <DependentUpon>P788_BCC_UC_TestMode_Charging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\TestMode_Charging\UC_TestMode_LayoutUnit_Charger.resx">
+      <DependentUpon>UC_TestMode_LayoutUnit_Charger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\Form_CorrectionMode.resx">
+      <DependentUpon>Form_CorrectionMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Complete.resx">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Complete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Home.resx">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Setup_Battery.resx">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Setup_Battery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Test_Charging.resx">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Test_Charging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Test_Comm.resx">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Test_Comm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Test_IO.resx">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Test_IO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\Self-diagnosis\BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resx">
+      <DependentUpon>BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\Self-diagnosis\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\UC_CorrectionMode_IOBoard_Receive_Common.resx">
+      <DependentUpon>UC_CorrectionMode_IOBoard_Receive_Common.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\UC_CorrectionMode_IOBoard_Receive_z1.resx">
+      <DependentUpon>UC_CorrectionMode_IOBoard_Receive_z1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\UC_CorrectionMode_IOBoard_Receive_z1_Socket.resx">
+      <DependentUpon>UC_CorrectionMode_IOBoard_Receive_z1_Socket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\UC_CorrectionMode_IOBoard_Send_Common.resx">
+      <DependentUpon>UC_CorrectionMode_IOBoard_Send_Common.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\UC_CorrectionMode_IOBoard_Send_z1.resx">
+      <DependentUpon>UC_CorrectionMode_IOBoard_Send_z1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\UC_CorrectionMode_IOBoard_Send_z1_Socket.resx">
+      <DependentUpon>UC_CorrectionMode_IOBoard_Send_z1_Socket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Receive_Common.resx">
+      <DependentUpon>UC_CorrectionMode_NFCBoard_Receive_Common.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Receive_z1.resx">
+      <DependentUpon>UC_CorrectionMode_NFCBoard_Receive_z1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Receive_z1_Socket.resx">
+      <DependentUpon>UC_CorrectionMode_NFCBoard_Receive_z1_Socket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Send_Common.resx">
+      <DependentUpon>UC_CorrectionMode_NFCBoard_Send_Common.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Send_z1.resx">
+      <DependentUpon>UC_CorrectionMode_NFCBoard_Send_z1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CorrectionMode\UC_CorrectionMode_NFCBoard_Send_z1_Socket.resx">
+      <DependentUpon>UC_CorrectionMode_NFCBoard_Send_z1_Socket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\UC_MainPage.resx">
+      <DependentUpon>UC_MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\UC_MainPage_Notify_1Button.resx">
+      <DependentUpon>UC_MainPage_Notify_1Button.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\UC_MainPage_Notify_2Button.resx">
+      <DependentUpon>UC_MainPage_Notify_2Button.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryChange_Charger\Custom_UserControl\UC_ProcessStep_Common.resx">
+      <DependentUpon>UC_ProcessStep_Common.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JSH_Base\KeyPadForm\Form_Keypads.resx">
+      <DependentUpon>Form_Keypads.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SmartCardReader_PCSC\Form_SmartCardReader_PCSC.resx">
+      <DependentUpon>Form_SmartCardReader_PCSC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\CircularProgressBar.resx">
+      <DependentUpon>CircularProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BatteryChange_Charger\Custom_UserControl\common\" />
+    <Folder Include="Keypad\" />
+    <Folder Include="SerialPortManager\NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_btn_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_elelectric.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB5T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB0DAppBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB1icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PBQR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB0EvEnergy_Machine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB4EvEnergy_open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB4EvEnergy_bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn_s1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn_s2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB5T1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PBBOX2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PBBOX1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB4_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WeatherBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\air_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\air_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\air_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\air_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_btn_back_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_btn_back_white_clicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_socket_charging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_socket_error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB4EvEnergy_bin1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB4EvEnergy_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB4EvEnergy_open1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_electric.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_electric_whiteoutline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB0EvEnergy_Machine_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wev_btn_back_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PB4_Model1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KakaoTalk_20231117_083948586.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KakaoTalk_20231117_105406710.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\w5.png" />
+    <Content Include="Resources\w8.png" />
+    <Content Include="Resources\w9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>이 프로젝트는 이 컴퓨터에 없는 NuGet 패키지를 참조합니다. 해당 패키지를 다운로드하려면 NuGet 패키지 복원을 사용하십시오. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=322105를 참조하십시오. 누락된 파일은 {0}입니다.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\build\net40\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\build\net40\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Fody.4.0.2\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.4.0.2\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\build\net40\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\build\net40\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <Import Project="..\packages\Fody.4.0.2\build\Fody.targets" Condition="Exists('..\packages\Fody.4.0.2\build\Fody.targets')" />
+</Project>

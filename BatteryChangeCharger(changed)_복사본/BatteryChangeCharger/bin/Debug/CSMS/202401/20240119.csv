@@ -1,0 +1,4 @@
+[3,"41ddf322-86ba-462e-bca5-4bf937908fa4",{"status":"Accepted","currentTime":"2024-01-19T11:03:15.668Z","interval":1000}]
+[2,"1705629805915","ChangeConfiguration",{"key":"MeterValueSampleInterval","value":"10"}]
+[2,"1705629814856","ChangeConfiguration",{"key":"MeterValueSampleInterval","value":"10"}]
+[2,"1705629831717","ChangeConfiguration",{"key":"MeterValueSampleInterval","value":"10"}]

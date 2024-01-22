@@ -1,0 +1,995 @@
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe.config
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.pdb
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.Licensing.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\EntityFramework.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\System.Data.SQLite.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\zxing.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\zxing.presentation.dll
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\EntityFramework.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\System.Data.SQLite.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\zxing.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\bin\Debug\zxing.presentation.xml
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Main.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Unit_kiosk.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Main.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Main.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Unit_Kiosk.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_ProcessStep.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_Weather.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_MainPage.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_ProcessStep_Common.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Confirm_Program_Reset.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Setting_Main.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_CommDeviceSetting.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_DoorSetting.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_Main.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.P788_BCC_UC_TestMode_Charging.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.UC_TestMode_LayoutUnit_Charger.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Form_CorrectionMode.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.UserControl1.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_Common.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1_Socket.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_Common.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1_Socket.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_Common.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1_Socket.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_Common.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1_Socket.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_1Button.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_2Button.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_ProcessStep_Common.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Form1.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.JSH_Base.KeyPadForm.Form_Keypads.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Properties.Resources.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.SmartCardReader_PCSC.Form_SmartCardReader_PCSC.resources
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.exe.licenses
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CopyComplete
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.exe
+C:\Users\USER\source\repos\BatteryChangeCharger\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.pdb
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe.config
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.pdb
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.Licensing.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\EntityFramework.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\System.Data.SQLite.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\zxing.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\zxing.presentation.dll
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\EntityFramework.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\System.Data.SQLite.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\zxing.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\bin\Debug\zxing.presentation.xml
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Main.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Unit_kiosk.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Main.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Main.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Unit_Kiosk.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_ProcessStep.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_Weather.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_MainPage.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_ProcessStep_Common.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Confirm_Program_Reset.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Setting_Main.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_CommDeviceSetting.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_DoorSetting.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_Main.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.P788_BCC_UC_TestMode_Charging.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.UC_TestMode_LayoutUnit_Charger.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Form_CorrectionMode.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.UserControl1.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_Common.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1_Socket.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_Common.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1_Socket.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_Common.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1_Socket.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_Common.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1_Socket.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_1Button.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_2Button.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_ProcessStep_Common.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Form1.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.JSH_Base.KeyPadForm.Form_Keypads.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Properties.Resources.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.SmartCardReader_PCSC.Form_SmartCardReader_PCSC.resources
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.exe.licenses
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CopyComplete
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.exe
+C:\Users\USER\source\repos\BatteryChangeCharger (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.pdb
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe.config
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.pdb
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\EntityFramework.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\EntityFramework.SqlServer.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\Microsoft.Win32.Registry.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\Microsoft.Win32.Registry.AccessControl.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\Microsoft.Win32.SystemEvents.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\Newtonsoft.Json.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\RestSharp.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Buffers.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.CodeDom.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Data.Odbc.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Data.OleDb.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Data.SqlClient.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Data.SQLite.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Diagnostics.EventLog.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Drawing.Common.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.IO.FileSystem.AccessControl.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.IO.Packaging.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.IO.Ports.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Memory.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Numerics.Vectors.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Security.AccessControl.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Cng.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Security.Permissions.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Security.Principal.Windows.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.ServiceModel.Syndication.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.ServiceProcess.ServiceController.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\System.Threading.AccessControl.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\zxing.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\bin\Debug\zxing.presentation.xml
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.AssemblyReference.cache
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Main.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Unit_kiosk.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Main.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Main.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Unit_Kiosk.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_ProcessStep.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_Weather.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_MainPage.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_ProcessStep_Common.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Confirm_Program_Reset.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Setting_Main.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_CommDeviceSetting.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_DoorSetting.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_Main.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.P788_BCC_UC_TestMode_Charging.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.UC_TestMode_LayoutUnit_Charger.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Form_CorrectionMode.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.UserControl1.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_Common.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1_Socket.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_Common.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1_Socket.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_Common.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1_Socket.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_Common.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1_Socket.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_1Button.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_2Button.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_ProcessStep_Common.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Form1.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.JSH_Base.KeyPadForm.Form_Keypads.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Properties.Resources.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.SmartCardReader_PCSC.Form_SmartCardReader_PCSC.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Widgets.CircularProgressBar.resources
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.GenerateResource.cache
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CoreCompileInputs.cache
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.Fody.CopyLocal.cache
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CopyComplete
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.exe
+C:\BatteryChangeCharger (2) (2)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.pdb
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe.config
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.pdb
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\EntityFramework.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\EntityFramework.SqlServer.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\Microsoft.Win32.Registry.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\Microsoft.Win32.Registry.AccessControl.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\Microsoft.Win32.SystemEvents.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\Newtonsoft.Json.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\RestSharp.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Buffers.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.CodeDom.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Data.Odbc.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Data.OleDb.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Data.SqlClient.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Data.SQLite.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Diagnostics.EventLog.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Drawing.Common.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.IO.FileSystem.AccessControl.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.IO.Packaging.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.IO.Ports.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Memory.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Numerics.Vectors.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Security.AccessControl.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Cng.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Security.Permissions.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Security.Principal.Windows.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.ServiceModel.Syndication.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.ServiceProcess.ServiceController.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\System.Threading.AccessControl.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\zxing.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\bin\Debug\zxing.presentation.xml
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.AssemblyReference.cache
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Main.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Unit_kiosk.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Main.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Main.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Unit_Kiosk.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_ProcessStep.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_Weather.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_MainPage.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_ProcessStep_Common.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.UserControl1.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Confirm_Program_Reset.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Setting_Main.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_CommDeviceSetting.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_DoorSetting.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_Main.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.P788_BCC_UC_TestMode_Charging.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.UC_TestMode_LayoutUnit_Charger.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Form_CorrectionMode.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.UserControl1.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_Common.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1_Socket.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_Common.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1_Socket.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_Common.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1_Socket.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_Common.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1_Socket.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_1Button.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_2Button.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_ProcessStep_Common.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Form1.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.JSH_Base.KeyPadForm.Form_Keypads.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Properties.Resources.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.SmartCardReader_PCSC.Form_SmartCardReader_PCSC.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Widgets.CircularProgressBar.resources
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.GenerateResource.cache
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CoreCompileInputs.cache
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.Fody.CopyLocal.cache
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CopyComplete
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.exe
+C:\BatteryChangeCharger(changed)\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.pdb
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe.config
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\EntityFramework.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\EntityFramework.SqlServer.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\Microsoft.Win32.Registry.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\Microsoft.Win32.Registry.AccessControl.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\Microsoft.Win32.SystemEvents.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\Newtonsoft.Json.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\RestSharp.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Buffers.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.CodeDom.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Data.Odbc.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Data.OleDb.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Data.SqlClient.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Data.SQLite.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Diagnostics.EventLog.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Drawing.Common.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.IO.FileSystem.AccessControl.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.IO.Packaging.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.IO.Ports.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Memory.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Numerics.Vectors.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Security.AccessControl.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Cng.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Security.Permissions.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Security.Principal.Windows.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.ServiceModel.Syndication.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.ServiceProcess.ServiceController.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\System.Threading.AccessControl.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\zxing.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\zxing.presentation.xml
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.AssemblyReference.cache
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Main.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Unit_kiosk.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Main.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Main.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Unit_Kiosk.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_ProcessStep.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_Weather.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_MainPage.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_ProcessStep_Common.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.UserControl1.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Confirm_Program_Reset.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Setting_Main.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_CommDeviceSetting.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_DoorSetting.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_Main.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.P788_BCC_UC_TestMode_Charging.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.UC_TestMode_LayoutUnit_Charger.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Form_CorrectionMode.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.UserControl1.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_Common.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1_Socket.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_Common.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1_Socket.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_Common.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1_Socket.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_Common.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1_Socket.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_1Button.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_2Button.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_ProcessStep_Common.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Form1.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.JSH_Base.KeyPadForm.Form_Keypads.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Properties.Resources.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.SmartCardReader_PCSC.Form_SmartCardReader_PCSC.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Widgets.CircularProgressBar.resources
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.GenerateResource.cache
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CoreCompileInputs.cache
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.Fody.CopyLocal.cache
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CopyComplete
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.exe
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.pdb
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.pdb
+C:\BatteryChangeCharger(changed) - 복사본\BatteryChangeCharger\bin\Debug\websocket-sharp.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe.config
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.pdb
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\EntityFramework.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\EntityFramework.SqlServer.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\Microsoft.Win32.Registry.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\Microsoft.Win32.Registry.AccessControl.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\Microsoft.Win32.SystemEvents.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\Newtonsoft.Json.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\RestSharp.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Buffers.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.CodeDom.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Data.Odbc.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Data.OleDb.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Data.SqlClient.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Data.SQLite.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Diagnostics.EventLog.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Drawing.Common.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.IO.FileSystem.AccessControl.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.IO.Packaging.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.IO.Ports.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Memory.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Numerics.Vectors.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.AccessControl.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Cng.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Permissions.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Principal.Windows.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.ServiceModel.Syndication.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.ServiceProcess.ServiceController.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Threading.AccessControl.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\websocket-sharp.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\zxing.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\zxing.presentation.xml
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.AssemblyReference.cache
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Main.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Unit_kiosk.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Main.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Main.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Unit_Kiosk.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_ProcessStep.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_Weather.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_MainPage.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_ProcessStep_Common.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.UserControl1.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Confirm_Program_Reset.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Setting_Main.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_CommDeviceSetting.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_DoorSetting.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_Main.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.P788_BCC_UC_TestMode_Charging.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.UC_TestMode_LayoutUnit_Charger.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Form_CorrectionMode.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.UserControl1.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_Common.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1_Socket.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_Common.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1_Socket.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_Common.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1_Socket.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_Common.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1_Socket.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_1Button.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_2Button.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_ProcessStep_Common.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Form1.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.JSH_Base.KeyPadForm.Form_Keypads.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Properties.Resources.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.SmartCardReader_PCSC.Form_SmartCardReader_PCSC.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Widgets.CircularProgressBar.resources
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.GenerateResource.cache
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CoreCompileInputs.cache
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.Fody.CopyLocal.cache
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CopyComplete
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.exe
+C:\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.pdb
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.AssemblyReference.cache
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Main.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Unit_kiosk.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Main.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Main.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Unit_Kiosk.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_ProcessStep.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_Weather.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_MainPage.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_ProcessStep_Common.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.UserControl1.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Confirm_Program_Reset.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Setting_Main.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_CommDeviceSetting.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_DoorSetting.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_Main.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.P788_BCC_UC_TestMode_Charging.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.UC_TestMode_LayoutUnit_Charger.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Form_CorrectionMode.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.UserControl1.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_Common.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1_Socket.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_Common.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1_Socket.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_Common.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1_Socket.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_Common.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1_Socket.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_1Button.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_2Button.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_ProcessStep_Common.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Form1.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.JSH_Base.KeyPadForm.Form_Keypads.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Properties.Resources.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.SmartCardReader_PCSC.Form_SmartCardReader_PCSC.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Widgets.CircularProgressBar.resources
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.GenerateResource.cache
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CoreCompileInputs.cache
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.exe
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.pdb
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe.config
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.pdb
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\EntityFramework.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\Microsoft.Win32.Registry.AccessControl.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\Microsoft.Win32.SystemEvents.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\RestSharp.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Buffers.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.CodeDom.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Data.Odbc.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Data.OleDb.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Data.SqlClient.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Data.SQLite.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Diagnostics.EventLog.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Drawing.Common.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.IO.FileSystem.AccessControl.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.IO.Packaging.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.IO.Ports.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Memory.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.AccessControl.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Cng.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Permissions.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.ServiceModel.Syndication.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.ServiceProcess.ServiceController.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Threading.AccessControl.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\websocket-sharp.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\zxing.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\zxing.presentation.xml
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.Fody.CopyLocal.cache
+C:\Users\hs\Desktop\C#\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CopyComplete
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.AssemblyReference.cache
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Main.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.BCC_UC_ChargingMain_Unit_kiosk.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Card_Tag.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Main.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P1024_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Main.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Process_Certification_Battery.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Qrcode.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Use_Complete.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Insert_Battery.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Include_Wait_Retrieve_Battery.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_BCC_UC_ChargingMain_Unit_Kiosk.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_ProcessStep.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_Bottombar_Weather.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_MainPage.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.P788_UC_ProcessStep_Common.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl.UserControl1.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Self_diagnosis.P788_BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Confirm_Program_Reset.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.Form_Setting_Main.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_CommDeviceSetting.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_DoorSetting.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.Settings.P788_BCC_UC_Setting_Main.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.P788_BCC_UC_TestMode_Charging.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.BatteryChange_Charger.TestMode_Charging.UC_TestMode_LayoutUnit_Charger.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Form_CorrectionMode.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Complete.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Home.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Setup_Battery.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Charging.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_Comm.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.BCC_UC_SelfDiagnosis_Include_Test_IO_Socket.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.Self_diagnosis.UserControl1.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_Common.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Receive_z1_Socket.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_Common.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_IOBoard_Send_z1_Socket.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_Common.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Receive_z1_Socket.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_Common.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.CorrectionMode.UC_CorrectionMode_NFCBoard_Send_z1_Socket.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_1Button.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_MainPage_Notify_2Button.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Custom_UsercControl.UC_ProcessStep_Common.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Form1.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.JSH_Base.KeyPadForm.Form_Keypads.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Properties.Resources.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.SmartCardReader_PCSC.Form_SmartCardReader_PCSC.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.Widgets.CircularProgressBar.resources
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.GenerateResource.cache
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CoreCompileInputs.cache
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.exe
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.pdb
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe.config
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.exe
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\BatteryChangeCharger.pdb
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\EntityFramework.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\Microsoft.Win32.Registry.AccessControl.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\Microsoft.Win32.SystemEvents.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\RestSharp.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Buffers.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.CodeDom.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Data.Odbc.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Data.OleDb.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Data.SqlClient.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Data.SQLite.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Diagnostics.EventLog.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Drawing.Common.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.IO.FileSystem.AccessControl.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.IO.Packaging.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.IO.Ports.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Memory.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.AccessControl.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Cng.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Permissions.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.ServiceModel.Syndication.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.ServiceProcess.ServiceController.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\System.Threading.AccessControl.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\websocket-sharp.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\zxing.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\bin\Debug\zxing.presentation.xml
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.Fody.CopyLocal.cache
+C:\Users\ysk02\OneDrive\문서\카카오톡 받은 파일\충북BSS\충북 bss\BatteryChangeCharger(changed)_복사본\BatteryChangeCharger\obj\Debug\BatteryChangeCharger.csproj.CopyComplete

@@ -1,0 +1,9 @@
+[2024-01-12 18:04:38] [
+  2,
+  "0fb28aad-58f1-4be1-a574-257bd9b7f230",
+  "BootNotification",
+  {
+    "chargePointModel": "CB_BSS",
+    "chargePointVendor": "ELELECTRIC"
+  }
+]
