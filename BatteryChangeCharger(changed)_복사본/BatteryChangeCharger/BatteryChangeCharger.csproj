@@ -741,7 +741,9 @@
     <Compile Include="Manager\Manager_Time.cs" />
     <Compile Include="Manager\Manager_TTS.cs" />
     <Compile Include="OCPP\database\CONST_INDEX_OCPP_Setting.cs" />
+    <Compile Include="OCPP\database\OCPP_AuthCache.cs" />
     <Compile Include="OCPP\database\OCPP_Manager_Table_Setting.cs" />
+    <Compile Include="OCPP\database\OCPP_TransactionInfo.cs" />
     <Compile Include="OCPP\datatype\AuthorizationData.cs" />
     <Compile Include="OCPP\datatype\AuthorizationStatus.cs" />
     <Compile Include="OCPP\datatype\AvailabilityStatus.cs" />

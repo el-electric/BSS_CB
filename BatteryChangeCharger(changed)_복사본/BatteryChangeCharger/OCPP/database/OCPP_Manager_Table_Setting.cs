@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BatteryChangeCharger.Applications;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
@@ -13,7 +14,7 @@ namespace EL_DC_Charger.ocpp.ver16.database
     {
         private const string NAME_DB = @"..\Database_OCPPSetting.db";
         private const string NAME_TABLE = "OCPP_Setting_Table";
-        private SQLiteConnection connection;
+
 
         public OCPP_Manager_Table_Setting()
         {
@@ -24,15 +25,14 @@ namespace EL_DC_Charger.ocpp.ver16.database
         {
             if (!File.Exists(NAME_DB))
             {
-                connection = new SQLiteConnection($"Data Source={NAME_DB};Version=3;");
-                connection.Open();
+                MyApplication.getInstance().connection = new SQLiteConnection($"Data Source={NAME_DB};Version=3;");
+                MyApplication.getInstance().connection.Open();
                 CreateNewDatabase();
             }
             else
             {
-                connection = new SQLiteConnection($"Data Source={NAME_DB};Version=3;");
-                connection.Open();
-                // 기존 데이터베이스에 대한 추가 작업이 필요한 경우 여기에 작성합니다.
+                MyApplication.getInstance().connection = new SQLiteConnection($"Data Source={NAME_DB};Version=3;");
+                MyApplication.getInstance().connection.Open();
             }
         }
 
@@ -51,7 +51,7 @@ namespace EL_DC_Charger.ocpp.ver16.database
                 AccessType TEXT NOT NULL
             );";
 
-            using (var command = new SQLiteCommand(createTableQuery, connection))
+            using (var command = new SQLiteCommand(createTableQuery, MyApplication.getInstance().connection))
             {
                 command.ExecuteNonQuery();
             }
@@ -59,7 +59,7 @@ namespace EL_DC_Charger.ocpp.ver16.database
         static String[][] SETTING_DATA = new String[][]
       {
             ////////////////////////////////////////////0
-            new string[]{"AllowOfflineTxForUnknownId", "true", "RW" },
+            new string[]{"AllowOfflineTxForUnknownId", "false", "RW" },
             new string[]{"AuthorizationCacheEnabled", "false", "RW" },
             new string[] { "AuthorizeRemoteTxRequests", "false", "RW" },
             new string[] { "BlinkRepeat", "0", "RW" },
@@ -113,7 +113,7 @@ namespace EL_DC_Charger.ocpp.ver16.database
                 INSERT INTO " + NAME_TABLE + @" (SettingKey, SettingValue, AccessType)
                 VALUES (@SettingKey, @SettingValue, @AccessType);";
 
-                using (var command = new SQLiteCommand(insertQuery, connection))
+                using (var command = new SQLiteCommand(insertQuery, MyApplication.getInstance().connection))
                 {
                     command.Parameters.AddWithValue("@SettingKey", setting[0]);
                     command.Parameters.AddWithValue("@SettingValue", setting[1]);
@@ -125,9 +125,9 @@ namespace EL_DC_Charger.ocpp.ver16.database
 
         public void CloseConnection()
         {
-            if (connection != null && connection.State == ConnectionState.Open)
+            if (MyApplication.getInstance().connection != null && MyApplication.getInstance().connection.State == ConnectionState.Open)
             {
-                connection.Close();
+                MyApplication.getInstance().connection.Close();
             }
         }
 
@@ -135,7 +135,7 @@ namespace EL_DC_Charger.ocpp.ver16.database
         public DataTable selectDT()
         {
             string query = "SELECT * FROM OCPP_Setting_Table";
-            using (SQLiteCommand command = new SQLiteCommand(query, connection))
+            using (SQLiteCommand command = new SQLiteCommand(query, MyApplication.getInstance().connection))
             {
                 using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(command))
                 {
@@ -148,9 +148,8 @@ namespace EL_DC_Charger.ocpp.ver16.database
         public DataTable selectData(string field)
         {
             string query = $"SELECT * FROM OCPP_Setting_Table where SettingKey ='{field}'";
-            string result = "";
 
-            using (SQLiteCommand command = new SQLiteCommand(query, connection))
+            using (SQLiteCommand command = new SQLiteCommand(query, MyApplication.getInstance().connection))
             {
                 using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(command))
                 {
@@ -159,12 +158,12 @@ namespace EL_DC_Charger.ocpp.ver16.database
                     return dataTable;
                 }
             }
-        }              
+        }
         public int updateData(string field, string newValue)
         {
-            string query = $"UPDATE OCPP_Setting_Table SET SettingValue = '{newValue}' WHERE SettingKey = '{field}'";
+            string query = $"UPDATE {NAME_TABLE} SET SettingValue = '{newValue}' WHERE SettingKey = '{field}'";
 
-            using (SQLiteCommand command = new SQLiteCommand(query, connection))
+            using (SQLiteCommand command = new SQLiteCommand(query, MyApplication.getInstance().connection))
             {
                 command.Parameters.AddWithValue("@newValue", newValue);
                 int affectedRows = command.ExecuteNonQuery();

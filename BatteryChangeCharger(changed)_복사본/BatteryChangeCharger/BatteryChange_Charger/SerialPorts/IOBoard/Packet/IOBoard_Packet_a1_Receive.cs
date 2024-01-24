@@ -53,9 +53,9 @@ namespace BatteryChangeCharger.BatteryChange_Charger.SerialPorts.IOBoard.Packet
 
 
             if (Check_SLOT4_Battery_In)
-            {
-                MyApplication.getInstance().oCPP_Comm_SendMgr.sendOCPP_CP_Req_StatusNotification(0, ChargePointErrorCode.NoError, ChargePointStatus.Preparing);
-            }
+                MyApplication.getInstance().oCPP_Comm_SendMgr.sendOCPP_CP_Req_StatusNotification(1, ChargePointErrorCode.NoError, ChargePointStatus.Preparing);
+            else
+                MyApplication.getInstance().oCPP_Comm_SendMgr.sendOCPP_CP_Req_StatusNotification(1, ChargePointErrorCode.NoError, ChargePointStatus.Available);
 
             Check_SLOT4_Other_In = Manager_Conversion.getFlagByByteArray(receiveData[index], 3);
 

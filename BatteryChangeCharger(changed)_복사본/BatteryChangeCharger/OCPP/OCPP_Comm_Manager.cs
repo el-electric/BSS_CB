@@ -19,13 +19,27 @@ namespace BatteryChangeCharger.OCPP
     {
         private ClientWebSocket webSocket = null;
         CancellationTokenSource cts = new CancellationTokenSource();
-
+        Timer connectionCheckTimer;
+        string url;
         public OCPP_Comm_Manager()
         {
-            string url = CsUtil.IniReadValue(System.Windows.Forms.Application.StartupPath + @"\web_socet_url.ini", "web_socet_url", "url", "wss://dev.wev-charger.com:12200/ws/NYJ-TEST0001");
+            url = CsUtil.IniReadValue(System.Windows.Forms.Application.StartupPath + @"\web_socet_url.ini", "web_socet_url", "url", "wss://dev.wev-charger.com:12200/ws/NYJ-TEST0001");
             ConnectAsync(url);
+            connectionCheckTimer = new Timer(CheckConnectionStatus, null, TimeSpan.Zero, TimeSpan.FromSeconds(5));
         }
-
+        private async void CheckConnectionStatus(object state)
+        {
+            if (webSocket.State == WebSocketState.Closed || webSocket.State == WebSocketState.Aborted)
+            {
+                // 재접속 시도
+                Console.WriteLine("재접속");
+                await ReconnectAsync(url);
+            }
+            for (int i = 0; i < MyApplication.getInstance().oCPP_Comm_SendMgr.list_packet.Count; i++)
+            {
+                SendMessageAsync(MyApplication.getInstance().oCPP_Comm_SendMgr.list_packet[i].mPacket.ToString());
+            }
+        }
 
         public async Task ConnectAsync(string uri)
         {

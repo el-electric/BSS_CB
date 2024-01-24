@@ -11,6 +11,7 @@ namespace EL_DC_Charger.ocpp.ver16.datatype
     [JsonConverter(typeof(StringEnumConverter))]
     public enum Reason
     {
+        None,
         EmergencyStop,
         EVDisconnected,
         HardReset,

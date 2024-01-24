@@ -168,7 +168,7 @@ namespace BatteryChangeCharger.BatteryChange_Charger.Custom_UserControl
                             this.Invoke(new MethodInvoker(delegate ()
                             {
                                 MyApplication.getInstance().Card_Number = Card_Number;
-                                MyApplication.getInstance().manager_time.
+                                //MyApplication.getInstance().manager_time.
                             }));
 
                             return;

@@ -10,6 +10,7 @@ using BatteryChangeCharger.Controller;
 using BatteryChangeCharger.Interface_Common;
 using BatteryChangeCharger.Manager;
 using BatteryChangeCharger.OCPP;
+using BatteryChangeCharger.OCPP.database;
 using EL_DC_Charger.ocpp.ver16.comm;
 using EL_DC_Charger.ocpp.ver16.database;
 using EL_DC_Charger.ocpp.ver16.packet;
@@ -17,7 +18,9 @@ using EL_DC_Charger.ocpp.ver16.packet.cp2csms;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Data.SQLite;
 using System.Text;
+using System.Windows.Forms;
 
 namespace BatteryChangeCharger.Applications
 {
@@ -68,9 +71,7 @@ namespace BatteryChangeCharger.Applications
         }
 
         public Manager_Time manager_time;
-       
 
-        public string Card_Number;
 
         protected bool OCPP_Test = false;
 
@@ -127,13 +128,20 @@ namespace BatteryChangeCharger.Applications
 
 
         /// ////////////////////////////////////////////////////////////////////
-
+        public SQLiteConnection connection;
         public OCPP_Manager_Table_Setting oCPP_Manager_Table_Setting;
         public OCPP_Comm_Manager oCPP_Comm_Manager;
         public OCPP_Comm_SendMgr oCPP_Comm_SendMgr;
+        public OCPP_AuthCache oCPP_AuthCache;
+        public OCPP_TransactionInfo oCPP_TransactionInfo;
 
-
-      
+        public bool conf_RemoteStartTransaction = false;
+        public bool conf_RemoteStopTransaction = false;
+        public bool conf_HardReset = false;
+        public bool conf_SoftReset = false;
+        public bool conf_ChangeAvailability = false;
+        public bool conf_Operative = false;
+        public bool conf_InOperative = false;
 
         //public List<EL_OCPP_Packet_Wrapper> list_packet = new List<EL_OCPP_Packet_Wrapper>();
         public static JsonSerializerSettings mJsonSerializerSettings = new JsonSerializerSettings();
@@ -147,9 +155,23 @@ namespace BatteryChangeCharger.Applications
 
 
         public bool Manual_BatterArrive = false;
+
+
         public bool Manual_ProcessStep = false;
 
-        /// ////////////////////////////////////////////////////////////////////
+
+        public bool bIsTagDone = false;
+        public bool bIsCertificationSuccess = false;
+        public bool bIsCertificationFailed = false;
+        public string Card_Number = null;
+
+        public bool bIsConfStartTransAction = false;
+        public bool bIsConfStopTransAction = false;        
+        public int ConnectionTimeOut = 0;
+
+
+
+        ////////////////////////////////////////////////////////////////////////
 
         /*public void setOCPP_CSMS_Conf_BootNotification(Conf_BootNotification conf) 이후 수정
         {
