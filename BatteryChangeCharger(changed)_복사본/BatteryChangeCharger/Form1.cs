@@ -32,6 +32,8 @@ using DataTable = System.Data.DataTable;
 using BatteryChangeCharger.OCPP.database;
 using EL_DC_Charger.ocpp.ver16.packet.csms2cp;
 using Application = System.Windows.Forms.Application;
+using BatteryChangeCharger.BatteryChange_Charger.Settings;
+using BatteryChangeCharger.Widgets;
 
 namespace BatteryChangeCharger
 {
@@ -244,11 +246,16 @@ namespace BatteryChangeCharger
         private void Form1_Load(object sender, EventArgs e)
         {
             comboBox1.Items.AddRange(SerialPort.GetPortNames());
+            comboBox2.Items.AddRange(SerialPort.GetPortNames());
+            comboBox3.Items.AddRange(SerialPort.GetPortNames());
 
 
 
             try
             {
+                comboBox1.Text = CsUtil.IniReadValue(System.Windows.Forms.Application.StartupPath + @"\config.ini", "COMPORT", "CARD");
+                comboBox2.Text = CsUtil.IniReadValue(System.Windows.Forms.Application.StartupPath + @"\config.ini", "COMPORT", "IOBOARD");
+                comboBox3.Text = CsUtil.IniReadValue(System.Windows.Forms.Application.StartupPath + @"\config.ini", "COMPORT", "NFCBOARD");
                 comboBox1.Text = CsUtil.IniReadValue(System.Windows.Forms.Application.StartupPath + @"\config.ini", "COMPORT", "CARD");
                 serialPort1.PortName = CsUtil.IniReadValue(System.Windows.Forms.Application.StartupPath + @"\config.ini", "COMPORT", "CARD");
                 serialPort1.Open();
@@ -393,6 +400,8 @@ namespace BatteryChangeCharger
             switch (step)
             {
                 case Boot:
+                    MyApplication.getInstance().bIsStep_Main = false;
+
                     lbl_text.Text = "서버 접속 중";
 
                     myApplication.conf_BootNotification = new Conf_BootNotification();
@@ -405,6 +414,7 @@ namespace BatteryChangeCharger
                 case Boot + 1:
                     if (myApplication.conf_BootNotification.status == RegistrationStatus.Accepted)
                     {
+                        MyApplication.getInstance().bIsStep_Main = true;
                         dt_lastInfo = myApplication.oCPP_TransactionInfo.selectLastInfo();
                         if (dt_lastInfo.Rows.Count > 0)
                         {
@@ -430,7 +440,7 @@ namespace BatteryChangeCharger
 
                 case Boot + 2:
                     long tid = long.Parse(dt_lastInfo.Rows[0]["TransactionID"].ToString());
-                     
+
                     myApplication.oCPP_Comm_SendMgr.conf_StartTransaction.transactionId = tid;
 
                     if (dt_lastInfo.Rows[0]["RESET_REASON"].ToString().Equals("HARD"))
@@ -539,7 +549,8 @@ namespace BatteryChangeCharger
                         {
                             CsUtil.IniWriteValue(System.Windows.Forms.Application.StartupPath + @"\config.ini", "RESET", "YN", "N");
                             myApplication.conf_Operative = false;
-                            MyApplication.getInstance().oCPP_Comm_SendMgr.sendOCPP_CP_Req_StatusNotification(1, ChargePointErrorCode.NoError, ChargePointStatus.Available);
+
+                            MyApplication.getInstance().oCPP_Comm_SendMgr.sendOCPP_CP_Req_StatusNotification_Direct(1, ChargePointErrorCode.NoError, ChargePointStatus.Available);
                         }
                     }
 
@@ -596,6 +607,7 @@ namespace BatteryChangeCharger
 
                     if (myApplication.bIsCertificationSuccess)
                     {
+                        MyApplication.getInstance().oCPP_Comm_SendMgr.sendOCPP_CP_Req_StatusNotification(1, ChargePointErrorCode.NoError, ChargePointStatus.Preparing);
                         dt = DateTime.Now;
                         step = BattertyIn;
                     }
@@ -629,7 +641,7 @@ namespace BatteryChangeCharger
                 case ProcessChk:
                     tabControl1.SelectedTab = tabPage1;
                     lbl_text.Text = "배터리 프로세스 확인 중";
-
+                    myApplication.SerialPort_NFCBoard.getManager_Send().mPackets[3].mPacket_c1_Send.Command_Charging(true);
 
                     dt = DateTime.Now;
                     step = ProcessChk + 1;
@@ -677,7 +689,10 @@ namespace BatteryChangeCharger
                     dt = DateTime.Now;
                     step = Charging + 1;
                     break;
+
                 case Charging + 1:
+
+                    circularProgressBar2.Value = MyApplication.getInstance().SerialPort_NFCBoard.getManager_Send().mPackets[3].mPacket_c1_Receive.SOC;
 
                     if (DateTime.Now >= dt.AddSeconds(meterValueSampleInterval))
                     {
@@ -729,7 +744,7 @@ namespace BatteryChangeCharger
                     break;
                 case Finish:
                     myApplication.oCPP_Comm_SendMgr.sendOCPP_CP_Req_StatusNotification(1, ChargePointErrorCode.NoError, ChargePointStatus.Finishing);
-
+                    myApplication.SerialPort_NFCBoard.getManager_Send().mPackets[3].mPacket_c1_Send.Command_Charging(false);
                     lbl_text.Text = "충전이 종료되었습니다.";
                     tabControl1.SelectedTab = tabPage1;
                     dt = DateTime.Now;
@@ -960,6 +975,8 @@ namespace BatteryChangeCharger
         private void button2_Click_1(object sender, EventArgs e)
         {
             CsUtil.IniWriteValue(System.Windows.Forms.Application.StartupPath + @"\config.ini", "COMPORT", "CARD", comboBox1.Text);
+            CsUtil.IniWriteValue(System.Windows.Forms.Application.StartupPath + @"\config.ini", "COMPORT", "IOBOARD", comboBox2.Text);
+            CsUtil.IniWriteValue(System.Windows.Forms.Application.StartupPath + @"\config.ini", "COMPORT", "NFCBOARD", comboBox3.Text);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -977,12 +994,12 @@ namespace BatteryChangeCharger
         {
             myApplication.Manual_BatterArrive = !myApplication.Manual_BatterArrive;
 
-            if (myApplication.Manual_BatterArrive)
+            if (MyApplication.getInstance().bIsStep_Main && myApplication.Manual_BatterArrive)
             {
                 button3.BackColor = Color.Lime;
                 MyApplication.getInstance().oCPP_Comm_SendMgr.sendOCPP_CP_Req_StatusNotification(1, ChargePointErrorCode.NoError, ChargePointStatus.Preparing);
             }
-            else
+            else if (MyApplication.getInstance().bIsStep_Main && !myApplication.Manual_BatterArrive)
             {
                 MyApplication.getInstance().oCPP_Comm_SendMgr.sendOCPP_CP_Req_StatusNotification(1, ChargePointErrorCode.NoError, ChargePointStatus.Available);
                 button3.BackColor = Color.Transparent;
@@ -1019,6 +1036,27 @@ namespace BatteryChangeCharger
         private void button5_Click(object sender, EventArgs e)
         {
             myApplication.oCPP_Comm_Manager.CloseAsync();
+        }
+
+        private void Doorclose_Click(object sender, EventArgs e)
+        {
+            MyApplication.getInstance().Manager_SettingData_Main.SetDoor_Close(4);
+        }
+
+        private void Dooropen_Click(object sender, EventArgs e)
+        {
+            MyApplication.getInstance().Manager_SettingData_Main.SetDoor_Open(4);
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            // Manager_Application.finishApplication();
+            Application.Exit();
+        }
+
+        private void bt_Charging_Stop_Click(object sender, EventArgs e)
+        {
+            myApplication.oCPP_Comm_SendMgr.sendOCPP_CP_Req_StopTransAction();
         }
     }
 }

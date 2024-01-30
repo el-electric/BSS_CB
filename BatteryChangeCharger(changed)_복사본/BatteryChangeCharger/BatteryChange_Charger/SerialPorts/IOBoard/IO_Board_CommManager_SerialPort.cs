@@ -1,4 +1,5 @@
 ﻿using BatteryChangeCharger.Applications;
+using BatteryChangeCharger.BatteryChange_Charger.Controller;
 using BatteryChangeCharger.BatteryChange_Charger.Database;
 using BatteryChangeCharger.CRC;
 using BatteryChangeCharger.Manager;
@@ -39,8 +40,9 @@ namespace BatteryChangeCharger.BatteryChange_Charger.SerialPorts.IOBoard
 
         public IO_Board_CommManager_SerialPort(MyApplication application) : base(application, 500)
         {
-            mPath_Commport = application.Manager_SettingData_Main.getSettingData(EINDEX_SETTING_MAIN.PATH_SERIAL_IOBOARD);
-            //mPath_Commport = "COM8";//PATH;
+             // mPath_Commport = application.Manager_SettingData_Main.getSettingData(EINDEX_SETTING_MAIN.PATH_SERIAL_IOBOARD);
+            //mPath_Commport = "COM1";//PATH;
+            mPath_Commport = CsUtil.IniReadValue(System.Windows.Forms.Application.StartupPath + @"\config.ini", "COMPORT", "IOBOARD");
             if (isExist_SerialPort(mPath_Commport) && isPossible_SerialPort())
             {
                 mSerialPort = new SerialPort(mPath_Commport, BAUDRATE);

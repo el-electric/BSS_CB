@@ -41,21 +41,30 @@ namespace BatteryChangeCharger
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.btn_start = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.btn_chargingStop = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.circularProgressBar2 = new BatteryChangeCharger.Widgets.CircularProgressBar();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.Doorclose = new System.Windows.Forms.Button();
+            this.Dooropen = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.lbl_status = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_chargingStop = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.bck_sequnce = new System.ComponentModel.BackgroundWorker();
             this.bck_Counting = new System.ComponentModel.BackgroundWorker();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
-            this.button5 = new System.Windows.Forms.Button();
             this.circularProgressBar1 = new BatteryChangeCharger.Widgets.CircularProgressBar();
+            this.bt_Charging_Stop = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel_main.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -178,60 +187,148 @@ namespace BatteryChangeCharger
             // 
             // tabPage3
             // 
-            this.tabPage3.BackgroundImage = global::BatteryChangeCharger.Properties.Resources.PB0DAppBG;
-            this.tabPage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage3.Controls.Add(this.circularProgressBar1);
-            this.tabPage3.Controls.Add(this.btn_chargingStop);
-            this.tabPage3.Controls.Add(this.label1);
+            this.tabPage3.BackColor = System.Drawing.SystemColors.WindowText;
+            this.tabPage3.Controls.Add(this.bt_Charging_Stop);
+            this.tabPage3.Controls.Add(this.label4);
+            this.tabPage3.Controls.Add(this.circularProgressBar2);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(1010, 496);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "tabPage3";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // btn_chargingStop
+            // label4
             // 
-            this.btn_chargingStop.Font = new System.Drawing.Font("굴림", 24F);
-            this.btn_chargingStop.Location = new System.Drawing.Point(390, 361);
-            this.btn_chargingStop.Name = "btn_chargingStop";
-            this.btn_chargingStop.Size = new System.Drawing.Size(200, 129);
-            this.btn_chargingStop.TabIndex = 15;
-            this.btn_chargingStop.Text = "충전 중지";
-            this.btn_chargingStop.UseVisualStyleBackColor = true;
-            this.btn_chargingStop.Click += new System.EventHandler(this.btn_chargingStop_Click);
+            this.label4.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(408, 341);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(218, 55);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "충전중입니다";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // circularProgressBar2
             // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("굴림", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(3, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1004, 197);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "충전 중 입니다.";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.circularProgressBar2.BackColor = System.Drawing.SystemColors.Control;
+            this.circularProgressBar2.BarColor1 = System.Drawing.Color.DodgerBlue;
+            this.circularProgressBar2.BarColor2 = System.Drawing.Color.DodgerBlue;
+            this.circularProgressBar2.BarWidth = 14F;
+            this.circularProgressBar2.Font = new System.Drawing.Font("Segoe UI", 15F);
+            this.circularProgressBar2.ForeColor = System.Drawing.Color.DimGray;
+            this.circularProgressBar2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.circularProgressBar2.LineColor = System.Drawing.Color.DimGray;
+            this.circularProgressBar2.LineWidth = 1;
+            this.circularProgressBar2.Location = new System.Drawing.Point(361, 14);
+            this.circularProgressBar2.Maximum = ((long)(100));
+            this.circularProgressBar2.MinimumSize = new System.Drawing.Size(100, 100);
+            this.circularProgressBar2.Name = "circularProgressBar2";
+            this.circularProgressBar2.ProgressShape = BatteryChangeCharger.Widgets.CircularProgressBar._ProgressShape.Flat;
+            this.circularProgressBar2.Size = new System.Drawing.Size(309, 309);
+            this.circularProgressBar2.TabIndex = 16;
+            this.circularProgressBar2.Text = "57";
+            this.circularProgressBar2.TextMode = BatteryChangeCharger.Widgets.CircularProgressBar._TextMode.Percentage;
+            this.circularProgressBar2.Value = ((long)(57));
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.comboBox3);
+            this.panel1.Controls.Add(this.comboBox2);
+            this.panel1.Controls.Add(this.Doorclose);
+            this.panel1.Controls.Add(this.Dooropen);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.lbl_status);
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1018, 234);
             this.panel1.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(166, 124);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "종료";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(132, 58);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(30, 12);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "NFC";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(132, 33);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(17, 12);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "IO";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(3, 55);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(121, 20);
+            this.comboBox3.TabIndex = 12;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(4, 29);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 20);
+            this.comboBox2.TabIndex = 11;
+            // 
+            // Doorclose
+            // 
+            this.Doorclose.Location = new System.Drawing.Point(247, 95);
+            this.Doorclose.Name = "Doorclose";
+            this.Doorclose.Size = new System.Drawing.Size(75, 23);
+            this.Doorclose.TabIndex = 10;
+            this.Doorclose.Text = "문닫기";
+            this.Doorclose.UseVisualStyleBackColor = true;
+            this.Doorclose.Click += new System.EventHandler(this.Doorclose_Click);
+            // 
+            // Dooropen
+            // 
+            this.Dooropen.Location = new System.Drawing.Point(166, 95);
+            this.Dooropen.Name = "Dooropen";
+            this.Dooropen.Size = new System.Drawing.Size(75, 23);
+            this.Dooropen.TabIndex = 9;
+            this.Dooropen.Text = "문열기";
+            this.Dooropen.UseVisualStyleBackColor = true;
+            this.Dooropen.Click += new System.EventHandler(this.Dooropen_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(85, 123);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "소켓종료";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(430, 3);
+            this.button4.Location = new System.Drawing.Point(85, 95);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 7;
@@ -241,7 +338,7 @@ namespace BatteryChangeCharger
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(349, 3);
+            this.button3.Location = new System.Drawing.Point(4, 95);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 6;
@@ -251,7 +348,7 @@ namespace BatteryChangeCharger
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(202, 3);
+            this.button2.Location = new System.Drawing.Point(131, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 5;
@@ -279,15 +376,28 @@ namespace BatteryChangeCharger
             this.lbl_status.Text = "label1";
             this.lbl_status.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // button1
+            // btn_chargingStop
             // 
-            this.button1.Location = new System.Drawing.Point(9, 41);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_chargingStop.Font = new System.Drawing.Font("굴림", 24F);
+            this.btn_chargingStop.Location = new System.Drawing.Point(390, 361);
+            this.btn_chargingStop.Name = "btn_chargingStop";
+            this.btn_chargingStop.Size = new System.Drawing.Size(200, 129);
+            this.btn_chargingStop.TabIndex = 15;
+            this.btn_chargingStop.Text = "충전 중지";
+            this.btn_chargingStop.UseVisualStyleBackColor = true;
+            this.btn_chargingStop.Click += new System.EventHandler(this.btn_chargingStop_Click);
+            // 
+            // label1
+            // 
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("굴림", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(3, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1004, 197);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "충전 중 입니다.";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // bck_sequnce
             // 
@@ -306,16 +416,6 @@ namespace BatteryChangeCharger
             // 
             this.serialPort1.BaudRate = 115200;
             this.serialPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(550, 12);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "소켓종료";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // circularProgressBar1
             // 
@@ -339,6 +439,16 @@ namespace BatteryChangeCharger
             this.circularProgressBar1.TextMode = BatteryChangeCharger.Widgets.CircularProgressBar._TextMode.Percentage;
             this.circularProgressBar1.Value = ((long)(57));
             // 
+            // bt_Charging_Stop
+            // 
+            this.bt_Charging_Stop.Location = new System.Drawing.Point(424, 410);
+            this.bt_Charging_Stop.Name = "bt_Charging_Stop";
+            this.bt_Charging_Stop.Size = new System.Drawing.Size(188, 56);
+            this.bt_Charging_Stop.TabIndex = 18;
+            this.bt_Charging_Stop.Text = "충전종료";
+            this.bt_Charging_Stop.UseVisualStyleBackColor = true;
+            this.bt_Charging_Stop.Click += new System.EventHandler(this.bt_Charging_Stop_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -358,6 +468,7 @@ namespace BatteryChangeCharger
             this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -369,7 +480,6 @@ namespace BatteryChangeCharger
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel_main;
         private System.ComponentModel.BackgroundWorker bck_sequnce;
-        private System.Windows.Forms.Button button1;
         private System.ComponentModel.BackgroundWorker bck_Counting;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lbl_status;
@@ -390,6 +500,16 @@ namespace BatteryChangeCharger
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button Dooropen;
+        private System.Windows.Forms.Button Doorclose;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
+        private Widgets.CircularProgressBar circularProgressBar2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button bt_Charging_Stop;
     }
 }
 

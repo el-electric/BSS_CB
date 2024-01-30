@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using EL_DC_Charger.ocpp.ver16.comm;
 using BatteryChangeCharger.Applications;
 using System.Diagnostics;
+using RestSharp.Extensions;
 
 namespace BatteryChangeCharger.OCPP
 {
@@ -20,12 +21,14 @@ namespace BatteryChangeCharger.OCPP
         private ClientWebSocket webSocket = null;
         CancellationTokenSource cts = new CancellationTokenSource();
         Timer connectionCheckTimer;
+        bool isStop = false;
         string url;
         public OCPP_Comm_Manager()
         {
             url = CsUtil.IniReadValue(System.Windows.Forms.Application.StartupPath + @"\web_socet_url.ini", "web_socet_url", "url", "wss://dev.wev-charger.com:12200/ws/NYJ-TEST0001");
             ConnectAsync(url);
             connectionCheckTimer = new Timer(CheckConnectionStatus, null, TimeSpan.Zero, TimeSpan.FromSeconds(5));
+
         }
         private async void CheckConnectionStatus(object state)
         {
@@ -35,9 +38,12 @@ namespace BatteryChangeCharger.OCPP
                 Console.WriteLine("재접속");
                 await ReconnectAsync(url);
             }
-            for (int i = 0; i < MyApplication.getInstance().oCPP_Comm_SendMgr.list_packet.Count; i++)
+            if (webSocket.State == WebSocketState.Open)
             {
-                SendMessageAsync(MyApplication.getInstance().oCPP_Comm_SendMgr.list_packet[i].mPacket.ToString());
+                for (int i = 0; i < MyApplication.getInstance().oCPP_Comm_SendMgr.list_packet.Count; i++)
+                {
+                    SendMessageAsync(MyApplication.getInstance().oCPP_Comm_SendMgr.list_packet[i].mPacket.ToString());
+                }
             }
         }
 
@@ -65,14 +71,18 @@ namespace BatteryChangeCharger.OCPP
 
         public async Task SendMessageAsync(string message)
         {
-            var messageBuffer = System.Text.Encoding.UTF8.GetBytes(message);
-            var segment = new ArraySegment<byte>(messageBuffer);
-            await webSocket.SendAsync(segment, WebSocketMessageType.Text, true, CancellationToken.None);
-
             if (webSocket.State == WebSocketState.Open)
-                Logger.d("＠Send Success＠ " + ": " + message);
-            else
-                Logger.d("＠Send Failed＠ " + ": " + message);
+            {
+                var messageBuffer = System.Text.Encoding.UTF8.GetBytes(message);
+                var segment = new ArraySegment<byte>(messageBuffer);
+
+                await webSocket.SendAsync(segment, WebSocketMessageType.Text, true, CancellationToken.None);
+
+                if (webSocket.State == WebSocketState.Open)
+                    Logger.d("＠Send Success＠ " + ": " + message);
+                else
+                    Logger.d("＠Send Failed＠ " + ": " + message);
+            }
         }
 
         public async Task<string> ReceiveMessageAsync()

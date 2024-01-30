@@ -1,4 +1,5 @@
 ﻿using BatteryChangeCharger.Applications;
+using BatteryChangeCharger.BatteryChange_Charger.Controller;
 using BatteryChangeCharger.BatteryChange_Charger.Database;
 using BatteryChangeCharger.CRC;
 using BatteryChangeCharger.Manager;
@@ -41,7 +42,9 @@ namespace BatteryChangeCharger.BatteryChange_Charger.SerialPorts.NFC_Board
         {
             //mPath_Commport = "COM5";//application.Manager_SettingData_Main.getSettingData(EINDEX_SETTING_MAIN.PATH_SERIAL_NFC_MAIN);
 
-            mPath_Commport = application.Manager_SettingData_Main.getSettingData(EINDEX_SETTING_MAIN.PATH_SERIAL_NFC_MAIN);
+            // mPath_Commport = application.Manager_SettingData_Main.getSettingData(EINDEX_SETTING_MAIN.PATH_SERIAL_NFC_MAIN);
+
+            mPath_Commport = CsUtil.IniReadValue(System.Windows.Forms.Application.StartupPath + @"\config.ini", "COMPORT", "NFCBOARD");
 
 
             //mPath_Commport = "COM9";

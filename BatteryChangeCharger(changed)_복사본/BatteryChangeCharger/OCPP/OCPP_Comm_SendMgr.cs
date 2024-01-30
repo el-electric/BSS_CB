@@ -57,6 +57,15 @@ namespace EL_DC_Charger.ocpp.ver16.comm
                 statusNotification.GetType().Name.Split(new String[] { "_" }, StringSplitOptions.RemoveEmptyEntries)[1],
                 JsonConvert.SerializeObject(statusNotification, MyApplication.mJsonSerializerSettings));
         }
+        public void sendOCPP_CP_Req_StatusNotification_Direct(int ChannelIdx, ChargePointErrorCode errorCode, ChargePointStatus status)
+        {
+            Req_StatusNotification statusNotification = new Req_StatusNotification();
+            statusNotification.setRequiredValue(ChannelIdx, errorCode, status);
+
+            setSendPacket_Call_CP(
+                statusNotification.GetType().Name.Split(new String[] { "_" }, StringSplitOptions.RemoveEmptyEntries)[1],
+                JsonConvert.SerializeObject(statusNotification, MyApplication.mJsonSerializerSettings));
+        }
         public void sendOCPP_CP_Req_HearthBeat()
         {
             Req_Heartbeat req_Heartbeat = new Req_Heartbeat();
@@ -123,6 +132,7 @@ namespace EL_DC_Charger.ocpp.ver16.comm
         req_MeterValues.GetType().Name.Split(new String[] { "_" }, StringSplitOptions.RemoveEmptyEntries)[1],
         JsonConvert.SerializeObject(req_MeterValues, MyApplication.mJsonSerializerSettings));
 
+            mOCPP_List_MeterValue_Charging.Clear();
         }
         public void sendOCPP_CP_Req_StopTransAction(string idTag = null, Reason reason = Reason.None)
         {
@@ -337,6 +347,7 @@ namespace EL_DC_Charger.ocpp.ver16.comm
                                 }
                                 else
                                     sendOCPP_CP_Req_StatusNotification(0, ChargePointErrorCode.NoError, ChargePointStatus.Available);
+
                             }
                             else if (data.connectorId > 0)
                             {

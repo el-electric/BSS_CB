@@ -43,6 +43,7 @@ namespace BatteryChangeCharger.Widgets
         private LinearGradientMode _GradientMode = LinearGradientMode.ForwardDiagonal;
         private _ProgressShape ProgressShapeVal;
         private TextBox textBox1;
+        private ProgressBar progressBar1;
         private _TextMode ProgressTextMode;
 
         #endregion
@@ -383,6 +384,7 @@ namespace BatteryChangeCharger.Widgets
         private void InitializeComponent()
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // textBox1
@@ -391,6 +393,13 @@ namespace BatteryChangeCharger.Widgets
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 21);
             this.textBox1.TabIndex = 0;
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(0, 0);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(100, 23);
+            this.progressBar1.TabIndex = 0;
             this.ResumeLayout(false);
 
         }

@@ -169,6 +169,8 @@ namespace BatteryChangeCharger.Applications
         public bool bIsConfStopTransAction = false;        
         public int ConnectionTimeOut = 0;
 
+        public bool bIsStep_Main = false;
+
 
 
         ////////////////////////////////////////////////////////////////////////

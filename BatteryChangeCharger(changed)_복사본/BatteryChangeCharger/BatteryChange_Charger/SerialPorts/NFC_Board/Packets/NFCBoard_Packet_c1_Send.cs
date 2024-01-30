@@ -73,7 +73,7 @@ namespace BatteryChangeCharger.BatteryChange_Charger.SerialPorts.NFC_Board.Packe
                 send_mSendData[20] |= 0x10;
             if (BatteryOutput)
             {
-                if (MyApplication.getInstance().SerialPort_NFCBoard.getManager_Send().mPackets[mChannelIndex].mPacket_c1_Receive.SOC >= 95)
+                if (MyApplication.getInstance().SerialPort_NFCBoard.getManager_Send().mPackets[mChannelIndex].mPacket_c1_Receive.SOC >= 100)
                 {
                     Command_Charging(false);
                 }
