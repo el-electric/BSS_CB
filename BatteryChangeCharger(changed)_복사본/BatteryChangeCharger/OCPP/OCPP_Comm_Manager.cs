@@ -19,78 +19,103 @@ namespace BatteryChangeCharger.OCPP
     public class OCPP_Comm_Manager
     {
         private ClientWebSocket webSocket = null;
-        CancellationTokenSource cts = new CancellationTokenSource();
-        Timer connectionCheckTimer;
-        bool isStop = false;
-        string url;
+        private CancellationTokenSource cts = new CancellationTokenSource();
+        private Timer connectionCheckTimer;
+        private string url;
+
         public OCPP_Comm_Manager()
         {
+            // URL 설정 및 초기 연결 시도
             url = CsUtil.IniReadValue(System.Windows.Forms.Application.StartupPath + @"\web_socet_url.ini", "web_socet_url", "url", "wss://dev.wev-charger.com:12200/ws/NYJ-TEST0001");
             ConnectAsync(url);
-            connectionCheckTimer = new Timer(CheckConnectionStatus, null, TimeSpan.Zero, TimeSpan.FromSeconds(5));
 
+            // 연결 상태 확인 타이머 설정
+            connectionCheckTimer = new Timer(CheckConnectionStatus, null, TimeSpan.Zero, TimeSpan.FromSeconds(5));
         }
+
         private async void CheckConnectionStatus(object state)
         {
             if (webSocket.State == WebSocketState.Closed || webSocket.State == WebSocketState.Aborted)
             {
                 // 재접속 시도
-                Console.WriteLine("재접속");
+                Console.WriteLine("Attempting to reconnect...");
                 await ReconnectAsync(url);
-            }
-            if (webSocket.State == WebSocketState.Open)
-            {
-                for (int i = 0; i < MyApplication.getInstance().oCPP_Comm_SendMgr.list_packet.Count; i++)
-                {
-                    SendMessageAsync(MyApplication.getInstance().oCPP_Comm_SendMgr.list_packet[i].mPacket.ToString());
-                }
             }
         }
 
         public async Task ConnectAsync(string uri)
         {
             webSocket = new ClientWebSocket();
-
             webSocket.Options.SetRequestHeader("Sec-WebSocket-Protocol", "ocpp1.6");
             webSocket.Options.KeepAliveInterval = TimeSpan.FromSeconds(5);
             webSocket.Options.SetBuffer(5000, 5000);
 
-            await webSocket.ConnectAsync(new Uri(uri), CancellationToken.None);
-
-            switch (webSocket.State)
+            try
             {
-                case WebSocketState.Open:
+                await webSocket.ConnectAsync(new Uri(uri), CancellationToken.None);
+                if (webSocket.State == WebSocketState.Open)
+                {
                     _ = ListenForMessagesAsync(cts.Token);
-                    break;
-                default:
-                    Console.WriteLine("연결 에러");
-                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Connection error.");
+                }
             }
-
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Connection failed: {ex.Message}");
+            }
         }
 
         public async Task SendMessageAsync(string message)
         {
             if (webSocket.State == WebSocketState.Open)
             {
-                var messageBuffer = System.Text.Encoding.UTF8.GetBytes(message);
+                var messageBuffer = Encoding.UTF8.GetBytes(message);
                 var segment = new ArraySegment<byte>(messageBuffer);
 
-                await webSocket.SendAsync(segment, WebSocketMessageType.Text, true, CancellationToken.None);
-
-                if (webSocket.State == WebSocketState.Open)
-                    Logger.d("＠Send Success＠ " + ": " + message);
-                else
-                    Logger.d("＠Send Failed＠ " + ": " + message);
+                try
+                {
+                    await webSocket.SendAsync(segment, WebSocketMessageType.Text, true, CancellationToken.None);
+                    Console.WriteLine("Message sent successfully.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Send message failed: {ex.Message}");
+                }
             }
         }
 
         public async Task<string> ReceiveMessageAsync()
         {
-            var buffer = new byte[1024];
-            var result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
+            try
+            {
+                var buffer = new byte[1024];
+                WebSocketReceiveResult result;
+                do
+                {
+                    result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
+                    if (result.MessageType == WebSocketMessageType.Close)
+                    {
+                        await CloseAsync();
+                        return null;
+                    }
+                } while (!result.EndOfMessage);
 
-            return System.Text.Encoding.UTF8.GetString(buffer, 0, result.Count);
+                return Encoding.UTF8.GetString(buffer, 0, result.Count);
+            }
+            catch (WebSocketException)
+            {
+                Console.WriteLine("WebSocket connection problem. Attempting to reconnect...");
+                await ReconnectAsync(url);
+                return null;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"ReceiveMessageAsync exception: {ex.Message}");
+                return null;
+            }
         }
 
         public async Task CloseAsync()
@@ -98,7 +123,7 @@ namespace BatteryChangeCharger.OCPP
             if (webSocket != null && webSocket.State == WebSocketState.Open)
             {
                 await webSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, string.Empty, CancellationToken.None);
-                Console.WriteLine("WebSocket closed!");
+                Console.WriteLine("WebSocket closed.");
             }
         }
 
@@ -106,13 +131,14 @@ namespace BatteryChangeCharger.OCPP
         {
             try
             {
-                while (!cancellationToken.IsCancellationRequested)
+                while (!cancellationToken.IsCancellationRequested && webSocket.State == WebSocketState.Open)
                 {
-
                     string message = await ReceiveMessageAsync();
-                    Console.WriteLine($"Received message: {message}");
-
-                    MyApplication.getInstance().oCPP_Comm_SendMgr.ReceivedPacket(message);
+                    if (message != null)
+                    {
+                        Console.WriteLine($"Received message: {message}");
+                        // 메시지 처리 로직
+                    }
                 }
             }
             catch (OperationCanceledException)
@@ -121,14 +147,12 @@ namespace BatteryChangeCharger.OCPP
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error in message listening: {ex.Message}");
+                Console.WriteLine($"ListenForMessagesAsync exception: {ex.Message}");
             }
         }
 
-
         public async Task ReconnectAsync(string uri)
         {
-            // 재시도 횟수나 시간 간격은 필요에 따라 조정합니다.
             int retryIntervalSeconds = 5;
             int maxRetryCount = 5;
             int retryCount = 0;
@@ -158,3 +182,4 @@ namespace BatteryChangeCharger.OCPP
         }
     }
 }
+
